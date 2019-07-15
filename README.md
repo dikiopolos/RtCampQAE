@@ -21,3 +21,38 @@ The automation frameworks use Selenium with Java, and JUnit.  The tests are to b
    - LoginTest_rtCamp.java :  a) Performs valid credentials test and extracts/prints the title of the landing page and prints the page title to console log.  If successfully logged in to expected landing page, confirmation prints to log.  If user is not logged in with valid credentials and lands on login page, will print 'Test1 Failed' to log.  b) Performs invalid credentials test and extracts/prints the title of the landing page.  Extracts/prints bad-password error message.  If user is not logged in and lands on login page, prints confirmation and 'Test2 passed'.  If user is logged in with invalid credentials, prints "Test2 failed"  c) Following initial failure, performs re-login with valid credentials and extracts title of landing page.  If logged in and actual landing matches expected landing, prints 'Test3 Passed'.  If not, prints "Test3 Failed". --See Issue #63.
 
    - MediaPrivacyLikes_rtCamp.java : a) Adds a new post with uploaded photo, sets privacy to 'private'.  Opens photo and extracts actual privacy setting, prints to console.  b) On the open unliked photo, performs assertion that 'Like' button is displayed, prints confirmation to console.  If unliked photo displays "Unlike" button, test will end with no confirmation printout.  Clicks "Like" and performs asssertion that "Unliked" button is displayed, prints confirmation.  c) Navigates to "Liked Media" page.  Confirms the photo liked in previous test step is displayed on Liked page, prints confirmation to console.   
+
+
+### DEPENDENCIES & SETUP
+
+Test was built and executed using the following.  Older versions might work, but I have not tested them.  
+- Java 12: JRE/JDK
+- JUnit5
+- Selenium 
+- Eclipse 2019  Eclipse IDE for Java Developers  Version: 2019-06 (4.12.0)
+
+
+1. JAVA 
+   - Download and install JDK   https://www.oracle.com/technetwork/java/javase/downloads/index.html
+  
+2. Selenium
+
+
+3.  JUnit5
+
+
+4. Eclipse 2019 - 
+   - Download and Install       https://www.eclipse.org/downloads/
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+

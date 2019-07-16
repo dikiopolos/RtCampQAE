@@ -68,9 +68,9 @@ Test was built and executed using the following versions
         - hamcrest-all-1.3.jar
         - hamcrest-core-2.1.jar
         - junit-4.12.jar
-      - Verify "JRE System Library [JavaSE-12]" is listed under Modulepath
       - Click Apply & Close
-      <br><br>
+      <br>
+      <br>
   3. Edit DriverFactory.java with your local Firefox webdriver path
       - Identify the local file path of your geckodriver.exe
       - In Eclipse, open src > utilities > **DriverFactory.java** .  Replace the [String driverPath] value with your local path

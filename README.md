@@ -32,16 +32,16 @@ Test was built and executed using the following versions
  - Selenium, 
  - Eclipse IDE for Java Developers, Version: 2019-06 (4.12.0) 
 
-1. JAVA 
-   - Download and install JDK          https://www.oracle.com/technetwork/java/javase/downloads/index.html
+1. JAVa        
+   - https://www.oracle.com/technetwork/java/javase/downloads/index.html
    - Set System Variable HOME_JAVA to JDK path
    - Set System Variable Path to JDK\bin path
   
-2. Seleniumhttps://www.seleniumhq.org/download/
-   - Download and install Selenium for Java   
+  2. Selenium                            
+   - Download and install Selenium for Java    https://www.seleniumhq.org/download/
 
-3. Eclipse 
-   - Eclipse IDE for Java Developers     https://www.eclipse.org/downloads/
+3. Eclipse IDE for Java Developers, Version: 2019-06 (4.12.0) 
+   - Download and install Eclipse IDE for Java Developers     https://www.eclipse.org/downloads/
    - JUnit5 should install with this package
 
 4. JUnit5

@@ -10,7 +10,7 @@ Open file:  rtCampQAE_ManualTestResults.odt  using Word or other document reader
 
 ## AUTOMATION TESTING
 
-The automation frameworks use Selenium with Java, and JUnit.  The tests are to be executed in Eclipse.  
+The automation frameworks use Selenium with Java, and run as JUnit tests.  The tests are to be executed in Eclipse.  
  
 - There are 4 .java test files that perform the 6 Test Cases.  
 

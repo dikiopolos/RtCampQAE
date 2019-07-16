@@ -95,6 +95,10 @@ Test was built and executed using the following versions
        
   ### INSTRUCTIONS TO RUN 
   
+ - The 4 test files are independent of each other and can be run in any order.  All files use the DriverFactory file located in src>utiltities to access the webdriver.  Three of the test files will access the jpeg files in src>media folder. 
+ 
+ - Click on a test file > click Run (or Run As JUnit)
+  
   
      
     

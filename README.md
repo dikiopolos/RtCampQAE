@@ -73,7 +73,7 @@ Test was built and executed using the following.  Older versions might work, but
       
         ![image](https://user-images.githubusercontent.com/49427009/61272317-79022100-a76c-11e9-9368-0efccd7786ff.png)
       
-  4. Edit the following 3 test java files with your local Media path
+  4. Edit the following 3 test files with your local Media path
      - Identify the local file path of the (9) imported .jpeg files 
       
      - In Eclipse, open src > tests > **AlbumTest_rtCamp.java**.  Replace [String mediaPath] value with your local path 

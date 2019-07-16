@@ -27,17 +27,13 @@ The automation frameworks use Selenium with Java, and JUnit.  The tests are to b
 ### DEPENDENCIES & SETUP
 
 Test was built and executed using the following versions    
- - Java 12: JRE/JDK
- - JUnit5, 
- - Selenium, 
- - Eclipse IDE for Java Developers, Version: 2019-06 (4.12.0) 
 
-1. JAVa        
+1. Java 12       
    - https://www.oracle.com/technetwork/java/javase/downloads/index.html
    - Set System Variable HOME_JAVA to JDK path
    - Set System Variable Path to JDK\bin path
   
-  2. Selenium                            
+2. Selenium                            
    - Download and install Selenium for Java    https://www.seleniumhq.org/download/
 
 3. Eclipse IDE for Java Developers, Version: 2019-06 (4.12.0) 

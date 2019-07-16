@@ -28,21 +28,21 @@ The automation frameworks use Selenium with Java, and JUnit.  The tests are to b
 
 Test was built and executed using the following versions    
 
-1. Java 12       
-   - https://www.oracle.com/technetwork/java/javase/downloads/index.html
-   - Set System Variable HOME_JAVA to JDK path
-   - Set System Variable Path to JDK\bin path
+- Java 12       
+  - https://www.oracle.com/technetwork/java/javase/downloads/index.html
+  - Set System Variable HOME_JAVA to JDK path
+  - Set System Variable Path to JDK\bin path
   
-2. Selenium                            
-   - Download and install Selenium for Java    https://www.seleniumhq.org/download/
+- Selenium                            
+  - Download and install Selenium for Java  &nbsp; &nbsp; https://www.seleniumhq.org/download/
 
-3. Eclipse IDE for Java Developers, Version: 2019-06 (4.12.0) 
-   - Download and install Eclipse IDE for Java Developers     https://www.eclipse.org/downloads/
-   - JUnit5 should install with this package
+- Eclipse IDE for Java Developers, Version: 2019-06 (4.12.0) 
+  - Download and install Eclipse IDE for Java Developers&nbsp; &nbsp;    https://www.eclipse.org/downloads/
+  - JUnit5 should install with this package
 
-4. JUnit5
-   - JUnit5 should install with Eclipse. 
-   - Alternatively, the jar is available here: https://mvnrepository.com/artifact/junit/junit 
+- JUnit5
+  - JUnit5 should install with Eclipse. 
+  - Alternatively, the jar is available here:&nbsp; https://mvnrepository.com/artifact/junit/junit 
    <br><br>
    
  ### LOCAL CONFIGURATION 
@@ -53,11 +53,12 @@ Test was built and executed using the following versions
       - Navigate to local repo in Import Source
       - Check box for project RtCampQAE 
       - Click Finish
-        
-    > The imported package should have the following structure in the Package Explorer
+     <br>
+    - The imported package should have the following structure in the Package Explorer
 
       ![Eclipse project file structure](https://user-images.githubusercontent.com/49427009/61268624-a0072580-a761-11e9-87b9-0892bcba5569.jpg)
     <br><br>
+    
  2. ADD JARs to RtCampQAE Build Path
     - Right-click on RtCampQAE > click Build Path > Configure Build Path
     - Click Libraries tab > Classpath > Add External JARs

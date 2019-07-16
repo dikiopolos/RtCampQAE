@@ -68,12 +68,18 @@ Test was built and executed using the following.  Older versions might work, but
       <br><br>
    3. Edit DriverFactory.java with your local Firefox webdriver path
       - Identify the local file path of your geckodriver.exe
-      - In Eclipse, open utilities > DriverFactory.java .  Replace the [String driverPath] value with your local path
+      - In Eclipse, open src > utilities > DriverFactory.java .  Replace the [String driverPath] value with your local path
       
         ![image](https://user-images.githubusercontent.com/49427009/61272317-79022100-a76c-11e9-9368-0efccd7786ff.png)
       
-   
-   
+   4. Edit 3 of the test java files with your local Media path
+      - Identify the local file path of the (9) imported .jpeg files 
+      
+      - In Eclipse, open src > tests > AlbumTest_rtCampQAE.java .  Replace the [String mediaPath] value with your local path 
+        ![image](https://user-images.githubusercontent.com/49427009/61273638-9f758b80-a76f-11e9-84cd-1b53e6d53817.png)
+        <br><br>
+      - In Eclipse, open src > tests > CoverTest_rtCampQAE.java .  Replace the [String mediaPath] value with your local path 
+        ![image](https://user-images.githubusercontent.com/49427009/61274013-76092f80-a770-11e9-954c-8feccc3aafc2.png)
     
    
    

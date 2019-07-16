@@ -34,7 +34,8 @@ Test was built and executed using the following versions
   - Set System Variable Path to JDK\bin path
   
 - Selenium                            
-  - Download and install Selenium for Java  &nbsp; &nbsp; https://www.seleniumhq.org/download/
+  - Download Selenium for Java  &nbsp; &nbsp; https://www.seleniumhq.org/download/
+  - (JAR will be added to project in Local Configuration step 2 below)
 
 - Eclipse IDE for Java Developers, Version: 2019-06 (4.12.0) 
   - Download and install Eclipse IDE for Java Developers&nbsp; &nbsp;    https://www.eclipse.org/downloads/
@@ -42,7 +43,8 @@ Test was built and executed using the following versions
 
 - JUnit5
   - JUnit5 should install with Eclipse. 
-  - Alternatively, the jar is available here:&nbsp; https://mvnrepository.com/artifact/junit/junit 
+  - Alternatively, the jar is available here:&nbsp; https://mvnrepository.com/artifact/junit/junit
+  - (JARs will be added to project in Local Config step 2 below)
    <br><br>
    
  ### LOCAL CONFIGURATION 

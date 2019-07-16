@@ -51,7 +51,7 @@ Test was built and executed using the following.  Older versions might work, but
  1. Import the RtCampQAE package from Git into Eclipse
     - In Eclipse, click File > Import > from Git > RtCampQAE > 
    
-    - Imported package should have the following structure in the Package Explorer
+    - The imported package should have the following structure in the Package Explorer
 
       ![Eclipse project file structure](https://user-images.githubusercontent.com/49427009/61268624-a0072580-a761-11e9-87b9-0892bcba5569.jpg)
     <br><br>

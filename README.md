@@ -47,11 +47,19 @@ Test was built and executed using the following.  Older versions might work, but
    
  ### INSTRUCTIONS TO RUN TEST LOCALLY
  
- - Import the RtCampQAE package from Git into Eclipse
-   - In eclipse, click File > Import > from Git > RtCampQAE > 
+ 1. Import the RtCampQAE package from Git into Eclipse
+    - In Eclipse, click File > Import > from Git > RtCampQAE > 
    
-     - Imported package should have the following structure
-     
+    - Imported package should have the following structure in the Package Explorer
+
+    ![Eclipse project file structure](https://user-images.githubusercontent.com/49427009/61268624-a0072580-a761-11e9-87b9-0892bcba5569.jpg)
+    
+  2. Add JARs to the package
+     - Right-click on RtCampQAE > click Build Path > Configure Build Path
+     - Click Libraries tab > Classpath > Add External JARs
+     - Navigate to the local folder where you extracted/saved the JARs.
+       - Add JUnit JARs: 
+   
    
    
    

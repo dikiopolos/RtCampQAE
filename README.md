@@ -54,34 +54,34 @@ Test was built and executed using the following.  Older versions might work, but
 
       ![Eclipse project file structure](https://user-images.githubusercontent.com/49427009/61268624-a0072580-a761-11e9-87b9-0892bcba5569.jpg)
     <br><br>
-  2. ADD JARs to RtCampQAE Build Path
-     - Right-click on RtCampQAE > click Build Path > Configure Build Path
-     - Click Libraries tab > Classpath > Add External JARs
-     - Navigate to the local folder where you extracted/saved the JARs.
-       - Add Selenium and JUnit JARs: 
-         - selenium-server-standalone-3.141.59.jar
-         - hamcrest-all-1.3.jar
-         - hamcrest-core-2.1.jar
-         - junit-4.12.jar
+ 2. ADD JARs to RtCampQAE Build Path
+    - Right-click on RtCampQAE > click Build Path > Configure Build Path
+    - Click Libraries tab > Classpath > Add External JARs
+    - Navigate to the local folder where you extracted/saved the JARs.
+      - Add Selenium and JUnit JARs: 
+        - selenium-server-standalone-3.141.59.jar
+        - hamcrest-all-1.3.jar
+        - hamcrest-core-2.1.jar
+        - junit-4.12.jar
       - Verify "JRE System Library [JavaSE-12]" is listed under Modulepath
       - Click Apply & Close
       <br><br>
-   3. Edit DriverFactory.java with your local Firefox webdriver path
+  3. Edit DriverFactory.java with your local Firefox webdriver path
       - Identify the local file path of your geckodriver.exe
       - In Eclipse, open src > utilities > DriverFactory.java .  Replace the [String driverPath] value with your local path
       
         ![image](https://user-images.githubusercontent.com/49427009/61272317-79022100-a76c-11e9-9368-0efccd7786ff.png)
       
-   4. Edit 3 of the test java files with your local Media path
-      - Identify the local file path of the (9) imported .jpeg files 
+  4. Edit 3 of the test java files with your local Media path
+     - Identify the local file path of the (9) imported .jpeg files 
       
-      - In Eclipse, open src > tests > AlbumTest_rtCampQAE.java .  Replace the [String mediaPath] value with your local path 
-        ![image](https://user-images.githubusercontent.com/49427009/61273638-9f758b80-a76f-11e9-84cd-1b53e6d53817.png)
-        <br><br>
-      - In Eclipse, open src > tests > CoverTest_rtCampQAE.java .  Replace the [String mediaPath] value with your local path 
-        ![image](https://user-images.githubusercontent.com/49427009/61274013-76092f80-a770-11e9-954c-8feccc3aafc2.png)
+     - In Eclipse, open src > tests > AlbumTest_rtCampQAE.java.  Replace [String mediaPath] value with your local path 
+       ![image](https://user-images.githubusercontent.com/49427009/61274357-473f8900-a771-11e9-817e-980e4be27412.png)
+       
+     - In Eclipse, open src > tests > CoverTest_rtCampQAE.java.  Replace [String mediaPath] value with your local path 
+        ![image](https://user-images.githubusercontent.com/49427009/61274579-b87f3c00-a771-11e9-9040-d593beb39be1.png)
     
-   
+
    
    
 

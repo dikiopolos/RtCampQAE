@@ -76,9 +76,11 @@ Test was built and executed using the following.  Older versions might work, but
      - Identify the local file path of the (9) imported .jpeg files 
       
      - In Eclipse, open src > tests > AlbumTest_rtCampQAE.java.  Replace [String mediaPath] value with your local path 
+     
        ![image](https://user-images.githubusercontent.com/49427009/61274357-473f8900-a771-11e9-817e-980e4be27412.png)
        
-     - In Eclipse, open src > tests > CoverTest_rtCampQAE.java.  Replace [String mediaPath] value with your local path 
+     - In Eclipse, open src > tests > CoverTest_rtCampQAE.java.  Replace [String mediaPath] value with your local path
+     
         ![image](https://user-images.githubusercontent.com/49427009/61274579-b87f3c00-a771-11e9-9040-d593beb39be1.png)
     
 

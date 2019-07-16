@@ -24,7 +24,7 @@ The automation frameworks use Selenium with Java, and JUnit.  The tests are to b
 
 <br>
 
-### DEPENDENCIES & SETUP
+### DEPENDENCIES & SYSTEM SETUP
 
 Test was built and executed using the following versions    
 
@@ -41,16 +41,20 @@ Test was built and executed using the following versions
    - JUnit5 should install with this package
 
 4. JUnit5
-   - JUnit5 should install with Eclipse.  Alternatively, 
+   - JUnit5 should install with Eclipse. 
+   - Alternatively, the jar is available here: https://mvnrepository.com/artifact/junit/junit 
    <br><br>
    
- ### LOCAL CONFIGURATION INSTRUCTIONS
+ ### LOCAL CONFIGURATION 
  
- 1. Import the RtCampQAE package from Git into Eclipse
-    - 
-    - In Eclipse, click File > Import > from Git > RtCampQAE > 
-   
-    - The imported package should have the following structure in the Package Explorer
+ 1. Import RtCampQAE package from into Eclipse
+    - Clone remote repo to local eclipse workspace
+    - In Eclipse, click File > Open Projects from File System > opens Import Wizard
+      - Navigate to local repo in Import Source
+      - Check box for project RtCampQAE 
+      - Click Finish
+        
+    > The imported package should have the following structure in the Package Explorer
 
       ![Eclipse project file structure](https://user-images.githubusercontent.com/49427009/61268624-a0072580-a761-11e9-87b9-0892bcba5569.jpg)
     <br><br>
@@ -86,6 +90,11 @@ Test was built and executed using the following versions
      - In Eclipse, open src > tests>  **MediaPrivacyLikesTest_rtCamp.java**.  Replace [String mediaPath] valuse with your local path
        
        ![image](https://user-images.githubusercontent.com/49427009/61275487-b4ecb480-a773-11e9-823b-b45eeba236f5.png)
+       
+       
+  ### INSTRUCTIONS TO RUN 
+  
+  
      
     
 

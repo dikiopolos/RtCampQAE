@@ -45,7 +45,13 @@ Test was built and executed using the following.  Older versions might work, but
    - Download and Install       https://www.eclipse.org/downloads/
    
    
+ ### INSTRUCTIONS TO RUN TEST LOCALLY
+ 
+ - Import the RtCampQAE package from Git into Eclipse
+   - In eclipse, click File > Import > from Git > RtCampQAE > 
    
+     - Imported package should have the following structure
+     
    
    
    

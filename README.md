@@ -33,7 +33,7 @@ Test was built and executed using the following versions
   - Set System Variable HOME_JAVA to JDK path
   - Set System Variable Path to JDK\bin path
   
-- Selenium                            
+- Selenium 3.14                          
   - Download Selenium for Java  &nbsp; &nbsp; https://www.seleniumhq.org/download/
   - (JAR will be added to project in Local Configuration step 2 below)
 
@@ -62,7 +62,7 @@ Test was built and executed using the following versions
     <br><br>
     
  2. ADD JARs to RtCampQAE Build Path
-    - Right-click on RtCampQAE > click Build Path > Configure Build Path
+    - Rightclick on RtCampQAE > click Build Path > Configure Build Path
     - Click Libraries tab > Classpath > Add External JARs
     - Navigate to the local folder where you extracted/saved the JARs.
       - Add Selenium and JUnit JARs: 

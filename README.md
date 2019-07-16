@@ -10,7 +10,7 @@ Open file:  rtCampQAE_ManualTestResults.odt  using Word or other document reader
 
 ## AUTOMATION TESTING
 
-The automation frameworks use Selenium with Java, and run as JUnit tests.  The tests are to be executed in Eclipse.  
+The automation frameworks use Selenium with Java, and run as JUnit tests.  The tests are to be executed in Eclipse and are currently configured to run on Firefox.   
  
 - There are 4 .java test files that perform the 6 Test Cases.  
 
@@ -45,7 +45,10 @@ Test was built and executed using the following versions
   - JUnit5 should install with Eclipse. 
   - Alternatively, the jar is available here:&nbsp; https://mvnrepository.com/artifact/junit/junit
   - (JARs will be added to project in Local Config step 2 below)
-   <br><br>
+   
+- Firefox Browser & WebDriver 
+  - geckodriver-v0.24.0  &nbsp; &nbsp;https://github.com/mozilla/geckodriver
+  - Firefox Quantum browser &nbsp; &nbsp; https://www.mozilla.org/en-US/firefox/
    
  ### LOCAL CONFIGURATION 
  
@@ -96,7 +99,7 @@ Test was built and executed using the following versions
        
   ### INSTRUCTIONS TO RUN 
   
- - The 4 test files are independent of each other and can be run in any order.  All files use the DriverFactory file located in src>utiltities to access the webdriver.  Three of the test files will access the jpeg files in src>media folder. 
+ - The 4 test files are independent of each other and can be run in any order.  All files use the DriverFactory file located in src>utiltities folder to access the webdriver.  Three of the test files will access the jpeg files in src>media folder. 
  
  - Click on a test file > click Run (or Run As JUnit)
   

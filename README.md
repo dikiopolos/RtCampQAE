@@ -49,8 +49,8 @@ Test was built and executed using the following versions
    
  ### LOCAL CONFIGURATION 
  
- 1. Import RtCampQAE package from into Eclipse
-    - Clone the remote repo to local the local directory that you use for your eclipse workspace
+ 1. Import RtCampQAE package into Eclipse
+    - Clone the remote repo to your local directory that you use for your eclipse workspace
     - In Eclipse, click File > Open Projects from File System > opens Import Wizard
       - Navigate to local repo in Import Source
       - Check box for project RtCampQAE 

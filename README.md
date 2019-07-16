@@ -63,11 +63,13 @@ Test was built and executed using the following.  Older versions might work, but
          - hamcrest-all-1.3.jar
          - hamcrest-core-2.1.jar
          - junit-4.12.jar
-      - Click Apply 
-      - Click Modulepath > Verify "JRE System Library [JavaSE-12]" is listed
+      - Verify "JRE System Library [JavaSE-12]" is listed under Modulepath
       - Click Apply & Close
       
-   3. 
+   3. Configure Local Webdriver
+      - Identify the local file path of your Firefox webdriver
+      - Edit the DriverFactory file:
+      
    
    
    

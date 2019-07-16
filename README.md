@@ -26,29 +26,32 @@ The automation frameworks use Selenium with Java, and JUnit.  The tests are to b
 
 ### DEPENDENCIES & SETUP
 
-Test was built and executed using the following.  Older versions might work, but I have not tested them.  
-- Java 12: JRE/JDK
-- JUnit5
-- Selenium 
-- Eclipse 2019  Eclipse IDE for Java Developers  Version: 2019-06 (4.12.0)
-
+Test was built and executed using the following versions    
+ - Java 12: JRE/JDK
+ - JUnit5, 
+ - Selenium, 
+ - Eclipse IDE for Java Developers, Version: 2019-06 (4.12.0) 
 
 1. JAVA 
-   - Download and install JDK   https://www.oracle.com/technetwork/java/javase/downloads/index.html
+   - Download and install JDK          https://www.oracle.com/technetwork/java/javase/downloads/index.html
+   - Set System Variable HOME_JAVA to JDK path
+   - Set System Variable Path to JDK\bin path
   
-2. Selenium
+2. Seleniumhttps://www.seleniumhq.org/download/
+   - Download and install Selenium for Java   
 
+3. Eclipse 
+   - Eclipse IDE for Java Developers     https://www.eclipse.org/downloads/
+   - JUnit5 should install with this package
 
-3.  JUnit5
-
-
-4. Eclipse 2019 - 
-   - Download and Install       https://www.eclipse.org/downloads/
+4. JUnit5
+   - JUnit5 should install with Eclipse.  Alternatively, 
    <br><br>
    
  ### LOCAL CONFIGURATION INSTRUCTIONS
  
  1. Import the RtCampQAE package from Git into Eclipse
+    - 
     - In Eclipse, click File > Import > from Git > RtCampQAE > 
    
     - The imported package should have the following structure in the Package Explorer

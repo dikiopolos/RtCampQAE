@@ -71,8 +71,7 @@ Test was built and executed using the following versions
         - hamcrest-core-2.1.jar
         - junit-4.12.jar
       - Click Apply & Close
-      <br>
-      <br>
+          
   3. Edit DriverFactory.java with your local Firefox webdriver path
       - Identify the local file path of your geckodriver.exe
       - In Eclipse, open src > utilities > **DriverFactory.java** .  Replace the [String driverPath] value with your local path

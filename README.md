@@ -43,7 +43,7 @@ Test was built and executed using the following.  Older versions might work, but
 
 4. Eclipse 2019 - 
    - Download and Install       https://www.eclipse.org/downloads/
-   
+   <br><br>
    
  ### LOCAL CONFIGURATION INSTRUCTIONS
  
@@ -68,7 +68,7 @@ Test was built and executed using the following.  Older versions might work, but
       <br><br>
    3. Edit DriverFactory.java with your local Firefox webdriver path
       - Identify the local file path of your geckodriver.exe
-      - In Eclipse, click utilities > doubleclick DriverFactory.java
+      - In Eclipse, open utilities > DriverFactory.java .  Replace the [String driverPath] value with your local path
       
         ![image](https://user-images.githubusercontent.com/49427009/61272317-79022100-a76c-11e9-9368-0efccd7786ff.png)
       

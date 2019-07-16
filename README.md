@@ -65,10 +65,12 @@ Test was built and executed using the following.  Older versions might work, but
          - junit-4.12.jar
       - Verify "JRE System Library [JavaSE-12]" is listed under Modulepath
       - Click Apply & Close
+      <br><br>
+   3. Edit DriverFactory.java with your local Firefox webdriver path
+      - Identify the local file path of your geckodriver.exe
+      - In Eclipse, click utilities > doubleclick DriverFactory.java
       
-   3. Configure Local Webdriver
-      - Identify the local file path of your Firefox webdriver
-      - Edit the DriverFactory file:
+      
       
    
    

@@ -22,6 +22,7 @@ The automation frameworks use Selenium with Java, and JUnit.  The tests are to b
 
    - MediaPrivacyLikes_rtCamp.java : a) Adds a new post with uploaded photo, sets privacy to 'private'.  Opens photo and extracts actual privacy setting, prints to console.  b) On the open unliked photo, performs assertion that 'Like' button is displayed, prints confirmation to console.  If unliked photo displays "Unlike" button, test will end with no confirmation printout.  Clicks "Like" and performs asssertion that "Unliked" button is displayed, prints confirmation.  c) Navigates to "Liked Media" page.  Confirms the photo liked in previous test step is displayed on Liked page, prints confirmation to console.   
 
+<br>
 
 ### DEPENDENCIES & SETUP
 

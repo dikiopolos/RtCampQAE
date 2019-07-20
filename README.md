@@ -2,7 +2,7 @@
 
 
 ## MANUAL TESTING
-Open file:  rtCampQAE_ManualTestResults.odt  using Word or other document reader.  
+rtCampQAE_ManualTestResults.pdf
 
 - This document is a basic test results log, with expected/actual and pass/fail notation for each item in the Manual Test assignment.  Each defect is cross-referenced with the Git Issue #.  
 <br>

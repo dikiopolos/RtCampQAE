@@ -92,7 +92,7 @@ Test was built and executed using the following versions
      
         ![image](https://user-images.githubusercontent.com/49427009/61274579-b87f3c00-a771-11e9-9040-d593beb39be1.png) 
 
-     - In Eclipse, open src > tests>  **MediaPrivacyLikesTest_rtCamp.java**.  Replace [String mediaPath] valuse with your local path
+     - In Eclipse, open src > tests>  **MediaPrivacyLikesTest_rtCamp.java**.  Replace [String mediaPath] values with your local path
        
        ![image](https://user-images.githubusercontent.com/49427009/61275487-b4ecb480-a773-11e9-823b-b45eeba236f5.png)
        
